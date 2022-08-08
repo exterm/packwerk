@@ -3,7 +3,7 @@
 Violations can be [recorded as a deprecation](#recording-violations) or (better!) [eliminated](#eliminating-violations).
 
 ## Recording Violations
-💡 New privacy and dependency violations are never hard-blocked. There are many very valid reasons to run `bin/packwerk update-deprecations`. Even if you feel your reason might not be "valid," if your judgement says adding the violation and shipping your change will produce positive impact, trust your gut.
+💡 New privacy and dependency violations are never hard-blocked. There are many very valid reasons to run `bin/packwerk update-deprecations`, adding new violations to `deprecated_references.yml` files. Even if you feel your reason might not be "valid," if your judgement says adding the violation and shipping your change will produce positive impact, trust your gut.
 
 ### Emergency Fixes
 ❔ Is it a revert or is there a lot of urgency because you are fixing a production bug impacting customers?
